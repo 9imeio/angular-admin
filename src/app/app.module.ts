@@ -7,6 +7,8 @@ import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FooterComponent } from './footer/footer.component';
 import { EventsComponent } from './events/events.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { EventsComponent } from './events/events.component';
     ServicesComponent,
     GalleryComponent,
     FooterComponent,
-    EventsComponent
+    EventsComponent,
+    NavigationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
