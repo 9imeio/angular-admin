@@ -1,3 +1,4 @@
+import { ConfigService } from './../config.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
 
-  constructor() { }
+  events: {}
+
+  constructor( private config: ConfigService ) { }
 
   ngOnInit() {
+    this.events = this.getEvents();
+  }
+
+  getEvents(){
+    return this.config.getConfig().events;
   }
 
 }
