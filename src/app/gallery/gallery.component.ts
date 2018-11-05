@@ -10,6 +10,8 @@ export class GalleryComponent implements OnInit {
 
   gallery: {}
 
+
+
   constructor( private config: ConfigService ) { }
 
   ngOnInit() {

@@ -9,17 +9,17 @@ import { ConfigService } from '../config.service';
 })
 export class ServicesComponent implements OnInit {
 
-  services: { }
+  services: {}
 
-  constructor(private config: ConfigService) { }
+constructor(private config: ConfigService) { }
 
-  ngOnInit() {
-    this.services = this.getServices();
-  }
+ngOnInit() {
+  this.services = this.getServices();
+}
 
-  getServices() {
-    return this.config.getConfig().services;
-  }
+getServices() {
+  return this.config.getConfig().services;
+}
 
 
 }

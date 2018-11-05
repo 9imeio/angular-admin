@@ -8,65 +8,23 @@
                 <p class="wow fadeInDown" data-wow-delay="0.2s">{{ events.headingText }}</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="col-lg-4 col-md-6 col-xs-12" *ngFor="let features of events.features" >
               <div class="blog-item">
                 <div class="blog-image">
                   <a href="#">
-                    <img class="img-fluid" src="assets/img/blog/img-1.jpg" alt="">
+                    <img class="img-fluid" src="{{ features.img}}" alt="">
                   </a>
                 </div>
                 <div class="descr">
-                  <div class="tag">{{ events.typeCard }}</div>
+                  <div class="tag">{{ features.title }}</div>
                   <h3 class="title">
                     <a href="single-blog.html">
-                      {{ events.titleCard }}
+                      {{ features.description }}
                     </a>
                   </h3>
                   <div class="meta-tags">
-                    <span class="date">Jan 20, 2018</span>
-                    <span class="comments">| <a href="#"> by Cindy Jefferson</a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-              <div class="blog-item">
-                <div class="blog-image">
-                  <a href="#">
-                    <img class="img-fluid" src="assets/img/blog/img-2.jpg" alt="">
-                  </a>
-                </div>
-                <div class="descr">
-                  <div class="tag">{{ events.typeCard }}</div>
-                  <h3 class="title">
-                    <a href="single-blog.html">
-                      {{ events.titleCard }}
-                    </a>
-                  </h3>
-                  <div class="meta-tags">
-                    <span class="date">Jan 20, 2018 </span>
-                    <span class="comments">| <a href="#"> by Cindy Jefferson</a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-              <div class="blog-item">
-                <div class="blog-image">
-                  <a href="#">
-                    <img class="img-fluid" src="assets/img/blog/img-3.jpg" alt="">
-                  </a>
-                </div>
-                <div class="descr">
-                  <div class="tag">{{ events.typeCard }}</div>
-                  <h3 class="title">
-                    <a href="single-blog.html">
-                      {{ events.titleCard }}
-                    </a>
-                  </h3>
-                  <div class="meta-tags">
-                    <span class="date">{{ events.dateCard }}</span>
-                    <span class="comments">| <a href="#"> by {{ events.userCard }}</a></span>
+                    <span class="date">{{ features.date }}</span>
+                    <span class="comments">| <a href="#"> by {{ features.user}}</a></span>
                   </div>
                 </div>
               </div>
