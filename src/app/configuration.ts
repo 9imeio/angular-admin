@@ -1,13 +1,13 @@
 export const configuration = {
     header: {
-        heading: 'Global Grand Event on Digital Design',
-        headingText: 'Design Thinking Conference',
+        heading: 'Título Principal',
+        headingText: 'Chamada Principal',
         buttonText: 'View Demo',
         buttonTextLink: '\Home'
     },
     services: {
-        heading: 'Global Grand Event on Digital Design',
-        headingText: 'Design Thinking Conference',
+        heading: 'Título Principal dos Serviços',
+        headingText: 'Chamada Principal dos Serviços',
         buttonText: 'View Demo',
         buttonTextLink: '\Home',
         imgCard: ' ',
@@ -26,8 +26,8 @@ export const configuration = {
         ]
     },
     gallery: {
-        heading: 'OUR EVENT GALLERY',
-        headingText: 'Global Grand Event on Digital Design',
+        heading: 'Titulo Principal da Galeria',
+        headingText: 'Chamada Principal da Galeria',
         buttonText: 'Browse all',
         buttonTextLink: '\Home',
         imgCard: '',
@@ -37,12 +37,12 @@ export const configuration = {
         dateCard: '',
         userCard: '',
         features: [
-            { icon: '', img: 'assets/img/gallery/img-1.jpg', title: '1º Título', description: 'Descrição do primeiro conteudo' },
-            { icon: '', img: 'assets/img/gallery/img-2.jpg', title: '2º Título', description: 'Descrição do primeiro conteudo' },
-            { icon: '', img: 'assets/img/gallery/img-3.jpg', title: '3º Título', description: 'Descrição do primeiro conteudo' },
-            { icon: '', img: 'assets/img/gallery/img-4.jpg', title: '4º Título', description: 'Descrição do primeiro conteudo' },
-            { icon: '', img: 'assets/img/gallery/img-5.jpg', title: '5º Título', description: 'Descrição do primeiro conteudo' },
-            { icon: '', img: 'assets/img/gallery/img-6.jpg', title: '6º Título', description: 'Descrição do primeiro conteudo' }
+            { icon: '', img: 'img-1.jpg', title: '1º Título', description: 'Descrição do primeiro conteudo' },
+            { icon: '', img: 'img-2.jpg', title: '2º Título', description: 'Descrição do primeiro conteudo' },
+            { icon: '', img: 'img-3.jpg', title: '3º Título', description: 'Descrição do primeiro conteudo' },
+            { icon: '', img: 'img-4.jpg', title: '4º Título', description: 'Descrição do primeiro conteudo' },
+            { icon: '', img: 'img-5.jpg', title: '5º Título', description: 'Descrição do primeiro conteudo' },
+            { icon: '', img: 'img-6.jpg', title: '6º Título', description: 'Descrição do primeiro conteudo' }
 
         ]
     },
@@ -52,9 +52,9 @@ export const configuration = {
         buttonText: 'Read more news',
         buttonTextLink: '\Home',
         features: [
-            { icon: '', img: 'assets/img/blog/img-1.jpg', title: '1º Título', description: 'Descrição do primeiro conteudo', date: 'Jan 20, 2018', user: 'Matheus Souza' },
-            { icon: '', img: 'assets/img/blog/img-2.jpg', title: '2º Título', description: 'Descrição do primeiro conteudo', date: 'Fev 18, 2018', user: 'Lucas Alves' },
-            { icon: '', img: 'assets/img/blog/img-3.jpg', title: '3º Título', description: 'Descrição do primeiro conteudo', date: 'Abr 25, 2018', user: 'Cindy Jefferson' },
+            { icon: '', img: 'img-1.jpg', title: '1º Título', description: 'Descrição do primeiro conteudo', date: 'Jan 20, 2018', user: 'Matheus Souza' },
+            { icon: '', img: 'img-2.jpg', title: '2º Título', description: 'Descrição do primeiro conteudo', date: 'Fev 18, 2018', user: 'Lucas Alves' },
+            { icon: '', img: 'img-3.jpg', title: '3º Título', description: 'Descrição do primeiro conteudo', date: 'Abr 25, 2018', user: 'Cindy Jefferson' },
         ]
     }
 }
