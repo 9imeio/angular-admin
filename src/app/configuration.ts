@@ -1,4 +1,13 @@
 export const configuration = {
+    menu: {
+        navMenu: [
+            { title: 'Home', classActive:'home', routerLink:'\Home'},
+            { title: 'Services',classActive:'service', routerLink:'\Services' },
+            { title: 'Gallery', classActive:'gallery', routerLink:'\Gallery' },
+            { title: 'Events', classActive:'events', routerLink:'\Events'},
+            { title: 'Login',classActive:'login', routerLink:'\Login' },
+        ]
+    },
     header: {
         heading: 'Título Principal',
         headingText: 'Chamada Principal',
