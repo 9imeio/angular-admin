@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'Home', component: HeaderComponent },
   { path: 'Services', component: ServicesComponent },
   { path: 'Gallery', component: GalleryComponent },
-  { path: 'Events', component: EventsComponent }
+  { path: 'Events', component: EventsComponent },
+  { path: 'Login', component: LoginComponent }
 
 ];
 

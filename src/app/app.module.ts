@@ -10,6 +10,7 @@ import { EventsComponent } from './events/events.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ConfigService } from './config.service';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ConfigService } from './config.service';
     GalleryComponent,
     FooterComponent,
     EventsComponent,
-    NavigationComponent
+    NavigationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
