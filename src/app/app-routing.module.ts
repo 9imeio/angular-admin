@@ -7,6 +7,8 @@ import { ServicesComponent } from './services/services.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
 import { LoginComponent } from './login/login.component';
+import { ArticleComponent } from './article/article.component';
+
 
 
 const routes: Routes = [
@@ -15,7 +17,9 @@ const routes: Routes = [
   { path: 'Services', component: ServicesComponent },
   { path: 'Gallery', component: GalleryComponent },
   { path: 'Events', component: EventsComponent },
-  { path: 'Login', component: LoginComponent }
+  { path: 'Login', component: LoginComponent },
+  { path: 'Services/:id', component: ArticleComponent }
+
 
 ];
 

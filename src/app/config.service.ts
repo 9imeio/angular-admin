@@ -13,4 +13,9 @@ export class ConfigService {
   getConfig(){
     return this.config;
   }
+
+  getFeaturesByID(id: number){
+    return this.config.services.features[ id - 1 ]
+
+  }
 }

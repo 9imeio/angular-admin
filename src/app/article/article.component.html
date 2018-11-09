@@ -1,0 +1,14 @@
+<section id="services" class="services section-padding">
+  <div class="container">
+    <div class="row services-wrapper" *ngIf="features">
+      <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+        <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+          <app-post [features]="features"></app-post>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <a (click)="getBack()" class="button">VOLTAR</a>
+<a></a>
+</section>

@@ -11,6 +11,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ConfigService } from './config.service';
 import { LoginComponent } from './login/login.component';
+import { ArticleComponent } from './article/article.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     EventsComponent,
     NavigationComponent,
-    LoginComponent
+    LoginComponent,
+    ArticleComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

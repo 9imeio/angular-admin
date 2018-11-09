@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ConfigService } from '../config.service';
 
 
@@ -9,7 +9,7 @@ import { ConfigService } from '../config.service';
 })
 export class ServicesComponent implements OnInit {
 
-  services: {}
+services: {}
 
 constructor(private config: ConfigService) { }
 

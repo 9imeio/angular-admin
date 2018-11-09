@@ -1,11 +1,11 @@
 export const configuration = {
     menu: {
         navMenu: [
-            { title: 'Home', classActive:'home', routerLink:'\Home'},
-            { title: 'Services',classActive:'service', routerLink:'\Services' },
-            { title: 'Gallery', classActive:'gallery', routerLink:'\Gallery' },
-            { title: 'Events', classActive:'events', routerLink:'\Events'},
-            { title: 'Login',classActive:'login', routerLink:'\Login' },
+            { title: 'Home', classActive: 'home', routerLink: '\Home' },
+            { title: 'Services', classActive: 'service', routerLink: '\Services' },
+            { title: 'Gallery', classActive: 'gallery', routerLink: '\Gallery' },
+            { title: 'Events', classActive: 'events', routerLink: '\Events' },
+            { title: 'Login', classActive: 'login', routerLink: '\Login' },
         ]
     },
     header: {
@@ -26,12 +26,12 @@ export const configuration = {
         dateCard: '11/11/2018',
         userCard: 'Cindy Jefferson',
         features: [
-            { icon: 'heart', title: '1º Título', description: 'Descrição do primeiro conteudo' },
-            { icon: 'gallery', title: '2º Título', description: 'Descrição do seugundo conteudo' },
-            { icon: 'envelope', title: '3º Título', description: 'Descrição do terceiro conteudo' },
-            { icon: 'cup', title: '4º Título', description: 'Descrição do quarto conteudo' },
-            { icon: 'user', title: '5º Título', description: 'Descrição do quinto conteudo' },
-            { icon: 'bubble', title: '6º Título', description: 'Descrição do sexto conteudo' }
+            { id:1, icon: 'heart', title: '1º Título', description: 'Descrição do primeiro conteudo' },
+            { id:2, icon: 'gallery', title: '2º Título', description: 'Descrição do segundo conteudo' },
+            { id:3, icon: 'envelope', title: '3º Título', description: 'Descrição do terceiro conteudo' },
+            { id:4, icon: 'cup', title: '4º Título', description: 'Descrição do quarto conteudo' },
+            { id:5, icon: 'user', title: '5º Título', description: 'Descrição do quinto conteudo' },
+            { id:6, icon: 'bubble', title: '6º Título', description: 'Descrição do sexto conteudo' }
         ]
     },
     gallery: {
