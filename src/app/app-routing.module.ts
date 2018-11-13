@@ -8,6 +8,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { EventsComponent } from './events/events.component';
 import { LoginComponent } from './login/login.component';
 import { ArticleComponent } from './article/article.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+
 
 
 
@@ -18,7 +20,10 @@ const routes: Routes = [
   { path: 'Gallery', component: GalleryComponent },
   { path: 'Events', component: EventsComponent },
   { path: 'Login', component: LoginComponent },
-  { path: 'Services/:id', component: ArticleComponent }
+  { path: 'Services/:id', component: ArticleComponent },
+  { path: '404', component: NotfoundComponent },
+  { path: '**', redirectTo: '/404' }
+
 
 
 ];

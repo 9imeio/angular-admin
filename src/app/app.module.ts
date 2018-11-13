@@ -13,6 +13,7 @@ import { ConfigService } from './config.service';
 import { LoginComponent } from './login/login.component';
 import { ArticleComponent } from './article/article.component';
 import { PostComponent } from './post/post.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PostComponent } from './post/post.component';
     NavigationComponent,
     LoginComponent,
     ArticleComponent,
-    PostComponent
+    PostComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
