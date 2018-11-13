@@ -14,6 +14,8 @@ import { LoginComponent } from './login/login.component';
 import { ArticleComponent } from './article/article.component';
 import { PostComponent } from './post/post.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { NotfoundComponent } from './notfound/notfound.component';
     LoginComponent,
     ArticleComponent,
     PostComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ContactusComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,

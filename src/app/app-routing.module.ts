@@ -9,6 +9,8 @@ import { EventsComponent } from './events/events.component';
 import { LoginComponent } from './login/login.component';
 import { ArticleComponent } from './article/article.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { SignupComponent } from './signup/signup.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 
@@ -20,6 +22,8 @@ const routes: Routes = [
   { path: 'Gallery', component: GalleryComponent },
   { path: 'Events', component: EventsComponent },
   { path: 'Login', component: LoginComponent },
+  { path: 'SignUP', component: SignupComponent },
+  { path: 'Contactus', component: ContactusComponent },
   { path: 'Services/:id', component: ArticleComponent },
   { path: '404', component: NotfoundComponent },
   { path: '**', redirectTo: '/404' }
